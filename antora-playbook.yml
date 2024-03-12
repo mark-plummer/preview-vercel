@@ -1,0 +1,59 @@
+site:
+  title: ThoughtSpot Documentation Vercel Preview site
+  url: https://preview-vercel.vercel.app
+  start_page: home::index.adoc
+  keys:
+    google_analytics: UA-44946579-2
+content:
+  sources:
+  # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
+  - url: .
+    branches: HEAD
+    start_path: home
+  - url: git@github.com:thoughtspot/thoughtspot-docs.git
+  # Software docs branches
+    branches: ['6.0', '6.1', '6.2', '6.3', '7.0', '7.1', '7.2', '8.4.1.sw', '8.8.1.sw', '9.0.1.sw', '9.5.0.sw']
+    start_path: software/
+  - url: git@github.com:thoughtspot/thoughtspot-docs.git
+  # Cloud docs branches
+    branches: ['9.5.0.cl', '9.6.0.cl', '9.7.0.cl', '9.8.0.cl', '9.10.0.cl']
+    start_path: cloud/
+  - url: git@github.com:thoughtspot/visual-embed-sdk.git
+  # dev docs branches
+    branches: ['7.1.1-sw-docs', '7.2-sw-docs']
+    start_path: docs/software
+  - url: git@github.com:thoughtspot/thoughtspot-docs.git
+    # Seekwell docs branches
+    branches: ['seekwell']
+    start_path: seekwell/
+urls:
+  latest_version_segment_strategy: redirect:to
+  latest_version_segment: latest
+  html_extension_style: drop
+ui:
+  bundle:
+    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ui-bundle/ui2-bundle.zip
+  supplemental_files:
+  - path: .nojekyll
+  - path: ui.yml
+    contents: "static_files: [ .nojekyll ]"
+    snapshot: true
+asciidoc:
+  attributes:
+    #software: true
+    #cloud: false
+    page-company: ThoughtSpot
+    tabs: tabs
+    support-url: https://community.thoughtspot.com/customers/s/contactsupport[ThoughtSpot Support^]
+    seekwell: SeekWell
+    cl-subscription-agreement: https://www.thoughtspot.com/legal/thoughtspot-cloud-subscription-agreement[subscription agreement^]
+  extensions:
+  - '@asciidoctor/tabs'
+output:
+  clean: true
+  dir: build/
+runtime:
+  fetch: true
+  log:
+    level: error
