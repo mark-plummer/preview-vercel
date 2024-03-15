@@ -2,8 +2,8 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/software/9.5.0.sw/*",
-      "destination": "/software/latest/*",
+      "source": "/software/9.5.0.sw/:path*",
+      "destination": "/software/latest/:path*",
       "statusCode": 301 }
   ]
 }
