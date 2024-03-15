@@ -1,9 +1,6 @@
 {
+  "cleanUrls": true,
   "redirects": [
-    {
-      "source": "https://ts-preview-vercel.vercel.app/software/9.5.0.sw/*",
-      "destination": "https://ts-preview-vercel.vercel.app/software/latest/*"
-    }
-  ],
-  "cleanUrls": true
+    { "source": "https://ts-preview-vercel.vercel.app/software/9.5.0.sw/*", "destination": "https://ts-preview-vercel.vercel.app/software/latest/*", "statusCode": 301 }
+  ]
 }
