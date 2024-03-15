@@ -4,6 +4,10 @@
     {
       "source": "/software/9.5.0.sw/:path*",
       "destination": "/software/latest/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.10.0.cl/:path*",
+      "destination": "/cloud/latest/:path*",
       "statusCode": 301 }
   ]
 }
