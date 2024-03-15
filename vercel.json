@@ -1,10 +1,9 @@
 {
-  "cleanUrls": true
-}
-
+  "cleanUrls": true,
   "redirects": [
     {
       "source": "https://ts-preview-vercel.vercel.app/software/9.5.0.sw/*",
       "destination": "https://ts-preview-vercel.vercel.app/software/latest/*"
     }
-}
+  ]
+}  
