@@ -27,7 +27,6 @@ content:
     branches: ['seekwell']
     start_path: seekwell/
 urls:
-  latest_version_segment_strategy: redirect:to
   latest_version_segment: latest
 ui:
   bundle:
