@@ -14,8 +14,72 @@
       "destination": "/cloud/latest/",
       "statusCode": 301 },
     {
+      "source": "/cloud/9.8.0.cl",
+      "destination": "/cloud/9.8.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.7.0.cl",
+      "destination": "/cloud/9.7.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.6.0.cl",
+      "destination": "/cloud/9.6.0.cl/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.5.0.cl",
+      "destination": "/cloud/9.5.0.cl/",
+      "statusCode": 301 },
+    {
       "source": "/software/latest",
       "destination": "/software/latest/",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.8.0.sw",
+      "destination": "/software/latest/",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.5.0.sw",
+      "destination": "/software/latest/",
+      "statusCode": 301 },
+    {
+      "source": "/software/9.0.1.sw",
+      "destination": "/software/9.0.1.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.8.1.sw",
+      "destination": "/software/8.8.1.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/8.4.1.sw",
+      "destination": "/software/8.4.1.sw/",
+      "statusCode": 301 },
+    {
+      "source": "/software/7.2",
+      "destination": "/software/7.2/",
+      "statusCode": 301 },
+    {
+      "source": "/software/7.1",
+      "destination": "/software/7.1/",
+      "statusCode": 301 },
+    {
+      "source": "/software/7.0",
+      "destination": "/software/7.0/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.3",
+      "destination": "/software/6.3/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.2",
+      "destination": "/software/6.2/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.1",
+      "destination": "/software/6.1/",
+      "statusCode": 301 },
+    {
+      "source": "/software/6.0",
+      "destination": "/software/6.0/",
       "statusCode": 301 }
   ],
   "rewrites": [
