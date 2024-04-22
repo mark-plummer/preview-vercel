@@ -8,6 +8,14 @@
     {
       "source": "/cloud/9.10.0.cl/:path*",
       "destination": "/cloud/latest/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/latest/index.html",
+      "destination": "/cloud/latest/",
+      "statusCode": 301 },
+    {
+      "source": "/software/latest/index.html",
+      "destination": "/software/latest/",
       "statusCode": 301 }
   ],
   "rewrites": [

@@ -74,14 +74,14 @@ td {
 == {empty}
 ++++
 <div class="box-button-columns">
-    <div class="box-button"><a href="https://docs.thoughtspot.com/cloud/latest" class="panel-2">
+    <div class="box-button"><a href="https://docs.thoughtspot.com/cloud/latest/" class="panel-2">
       <span><img src="https://ts-preview-vercel.vercel.app/home/_images/cloud.png">
     <h2>
       Cloud
     </h2>
     <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
     </a></div>
-    <div class="box-button"><a href = "https://docs.thoughtspot.com/software/latest" class = "panel-2">
+    <div class="box-button"><a href = "https://docs.thoughtspot.com/software/latest/" class = "panel-2">
     <img src="https://ts-preview-vercel.vercel.app/home/_images/software.png">
     <h2>
       Software
@@ -99,7 +99,7 @@ td {
       <span><img class="mode-image" src="https://ts-preview-vercel.vercel.app/home/_images/mode.png" id="mode-icon">
     <p>Perform complex, ad hoc analysis and empower simple self-service reporting, all on the same platform.</p></span>
     </a></div>
-    <div class="box-button"><a href="https://docs.thoughtspot.com/seekwell/latest" class="panel-2">
+    <div class="box-button"><a href="https://docs.thoughtspot.com/seekwell/latest/" class="panel-2">
           <span><img src="https://ts-preview-vercel.vercel.app/home/_images/just-logo-black-40px.png" id="seekwell-icon">
         <h2>
           SeekWell
