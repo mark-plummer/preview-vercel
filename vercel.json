@@ -10,11 +10,11 @@
       "destination": "/cloud/latest/:path*",
       "statusCode": 301 },
     {
-      "source": "/cloud/latest/index.html",
+      "source": "/cloud/latest",
       "destination": "/cloud/latest/",
       "statusCode": 301 },
     {
-      "source": "/software/latest/index.html",
+      "source": "/software/latest",
       "destination": "/software/latest/",
       "statusCode": 301 }
   ],
