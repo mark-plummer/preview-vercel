@@ -84,8 +84,8 @@
   ],
   "rewrites": [
     {
-      "source": "/ghyer95y3/cloud/9.10.0.cl/",
-      "destination": "https://help-cloud.vercel.app/cloud/9.10.0.cl/index_help",
+      "source": "/ghyer95y3/software/9.8.0.sw/",
+      "destination": "https://help-software.vercel.app/software/9.8.0.sw/index_help",
       "statusCode": 200 }
   ]
 }
