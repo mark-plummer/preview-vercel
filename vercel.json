@@ -90,10 +90,6 @@
       "destination": "/software/latest/_images/blanknetworkconnect.png",
       "statusCode": 301 },
     {
-      "source": "/ghyer95y3/software/8.8.1.sw.cu2?pendo=1",
-      "destination": "/ghyer95y3/software/8.8.1.sw?pendo=1",
-      "statusCode": 301 },
-    {
       "source": "/cloud/9.12.0.cl/notes.html",
       "destination": "/cloud/latest/notes",
       "statusCode": 301 },
