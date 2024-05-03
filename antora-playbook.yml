@@ -1,5 +1,5 @@
 site:
-  title: ThoughtSpot Documentation Vercel Dev site
+  title: <company logo> ThoughtSpot documentation
   url: https://docs-dev-thoughtspot-com.vercel.app
   start_page: home::index.adoc
   keys:
